@@ -11,7 +11,7 @@
 <body>
     <div class="header">
         <div class="filter container">
-           
+
         </div>
         <h1 class="main-title">Our Menu</h1>
         <div class="header__content">
@@ -28,7 +28,15 @@
     </div>
 
 
-    
+
+    <div class="food-display">
+      <h2 class="food-display-title">Today's Special Dish</h2>
+      <img id="foodImage" src="" alt="Food Image">
+  </div>
+  
+
+
+
     <main class="main">
         <div class="food-container">
             <div class="food-image">
@@ -45,7 +53,7 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nisi?</p>
                 </div>
                 <div class="buy-now">
-                    <button class="buy-now-btn">TRY NOW</button>
+                    <button class=" buynow-btn"><span class="text">TRY NOW</span><span>Thanks!</span></button>
                 </div>
             </div>
         </div>
@@ -68,9 +76,9 @@
                 <div class="para">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nisi?</p>
                 </div>
-              
+
                 <div class="buy-now">
-                    <button class="buy-now-btn">TRY NOW</button>
+                    <button class=" buynow-btn"><span class="text">TRY NOW</span><span>Thanks!</span></button>
                 </div>
             </div>
         </div>
@@ -93,9 +101,9 @@
                 <div class="para">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nisi?</p>
                 </div>
-                 
+
                 <div class="buy-now">
-                    <button class="buy-now-btn">TRY NOW</button>
+                    <button class=" buynow-btn"><span class="text">TRY NOW</span><span>Thanks!</span></button>
                 </div>
             </div>
         </div>
@@ -117,9 +125,9 @@
                 <div class="para">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nisi?</p>
                 </div>
-                
+
                 <div class="buy-now">
-                    <button class="buy-now-btn">TRY NOW</button>
+                    <button class=" buynow-btn"><span class="text">TRY NOW</span><span>Thanks!</span></button>
                 </div>
             </div>
         </div>
@@ -140,9 +148,9 @@
                 <div class="para">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nisi?</p>
                 </div>
-               
+
                 <div class="buy-now">
-                    <button class="buy-now-btn">TRY NOW</button>
+                    <button class=" buynow-btn"><span class="text">TRY NOW</span><span>Thanks!</span></button>
                 </div>
             </div>
         </div>
@@ -163,9 +171,9 @@
                 <div class="para">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nisi?</p>
                 </div>
-               
+
                 <div class="buy-now">
-                    <button class="buy-now-btn">TRY NOW</button>
+                    <button class=" buynow-btn"><span class="text">TRY NOW</span><span>Thanks!</span></button>
                 </div>
             </div>
         </div>
@@ -187,9 +195,9 @@
                 <div class="para">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nisi?</p>
                 </div>
-               
+
                 <div class="buy-now">
-                    <button class="buy-now-btn">TRY NOW</button>
+                    <button class=" buynow-btn"><span class="text">TRY NOW</span><span>Thanks!</span></button>
                 </div>
             </div>
         </div>
@@ -210,9 +218,9 @@
                 <div class="para">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nisi?</p>
                 </div>
-                
+
                 <div class="buy-now">
-                    <button class="buy-now-btn">TRY NOW</button>
+                    <button class=" buynow-btn"><span class="text">TRY NOW</span><span>Thanks!</span></button>
                 </div>
             </div>
         </div>
@@ -234,9 +242,9 @@
                 <div class="para">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nisi?</p>
                 </div>
-    
+
                 <div class="buy-now">
-                    <button class="buy-now-btn">TRY NOW</button>
+                    <button class=" buynow-btn"><span class="text">TRY NOW</span><span>Thanks!</span></button>
                 </div>
             </div>
         </div>
@@ -258,9 +266,9 @@
                 <div class="para">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nisi?</p>
                 </div>
-                
+
                 <div class="buy-now">
-                    <button class="buy-now-btn">TRY NOW</button>
+                    <button class=" buynow-btn"><span class="text">TRY NOW</span><span>Thanks!</span></button>
                 </div>
             </div>
         </div>
@@ -281,16 +289,16 @@
                 <div class="para">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nisi?</p>
                 </div>
-                
+
                 <div class="buy-now">
-                    <button class="buy-now-btn">TRY NOW</button>
+                    <button class=" buynow-btn"><span class="text">TRY NOW</span><span>Thanks!</span></button>
                 </div>
             </div>
         </div>
     </main>
 
 
- 
+
         <!-- Your existing food containers go here -->
         <!-- ... (unchanged) ... -->
 
@@ -298,158 +306,211 @@
 
     </main>
 
+    <div class="food-selector">
+      <label for="foodSelector1">Select Food 1:</label>
+      <select id="foodSelector1">
+          <option value="">Select a food</option>
+          <!-- Options will be populated dynamically -->
+      </select>
+
+      <label for="foodSelector2">Select Food 2:</label>
+      <select id="foodSelector2">
+          <option value="">Select a food</option>
+          <!-- Options will be populated dynamically -->
+      </select>
+    </div>
+    <div class="random-btn-container"> 
+      <button class="random-btn" id="selectOneBtn">Select One</button>
+    </div>
+       
+  
+
+
 
 
     
-    <div class="food-selector">
-        <label for="foodSelector1">Select Food 1:</label>
-        <select id="foodSelector1">
-            <!-- Populate options dynamically from your food items -->
-            <!-- Assuming each food-container has a unique identifier like data-id -->
-            <option value="">Select a food</option>
-            <!-- Add options dynamically from your food items -->
-            <script>
-                document.querySelectorAll('.food-container').forEach(function(container) {
-                    var foodName = container.querySelector('.food-name').textContent;
-                    document.getElementById('foodSelector1').innerHTML += '<option value="' + foodName + '">' + foodName + '</option>';
-                });
-            </script>
-        </select>
-
-        <label for="foodSelector2">Select Food 2:</label>
-        <select id="foodSelector2">
-            <!-- Populate options dynamically from your food items -->
-            <!-- Assuming each food-container has a unique identifier like data-id -->
-            <option value="">Select a food</option>
-            <!-- Add options dynamically from your food items -->
-            <script>
-                document.querySelectorAll('.food-container').forEach(function(container) {
-                    var foodName = container.querySelector('.food-name').textContent;
-                    document.getElementById('foodSelector2').innerHTML += '<option value="' + foodName + '">' + foodName + '</option>';
-                });
-            </script>
-        </select>
-
-        <button id="selectOneBtn" class="random-btn">Select One</button>
-    </div>
-
     <div class="selected-food-box display-hidden">
         <div class="food-image">
             <img id="selectedFoodImage" src="" alt="" class="img-food">
         </div>
         <div class="food-details">
-            <h2 id="selectedFoodName" class="food-name"> </h2>
+            <h2 id="selectedFoodName" class="food-name"></h2>
             <div class="price">
-                <h3>Price <span id="selectedFoodPrice" class="price-rate"> </span>Rs</h3>
+                <h3>Price: <span id="selectedFoodPrice" class="price-rate"></span> Rs</h3>
+            </div>
+            <div class="category">
+                <h4 id="selectedFoodCategory"></h4>
+            </div>
+            <div class="description">
+                <p id="selectedFoodDescription"></p>
+            </div>
+        </div>
+    </div>
+    <div class="random-btn-container"><button class=" random-btn" id="randomFoodBtn">Random Food</button></div>
+   
+
+    <div id="randomFoodBox" class="random-food-box display-hidden">
+        <div class="food-image">
+            <img id="randomFoodImage" src="" alt="" class="img-food">
+        </div>
+        <div class="food-details">
+            <h2 id="randomFoodName" class="food-name"></h2>
+            <div class="price">
+                <h3>Price: <span id="randomFoodPrice" class="price-rate"></span> Rs</h3>
+            </div>
+            <div class="category">
+                <h4 id="randomFoodCategory"></h4>
+            </div>
+            <div class="description">
+                <p id="randomFoodDescription"></p>
             </div>
         </div>
     </div>
 
+    <script> 
+    document.addEventListener('DOMContentLoaded', function() {
+            // Function to populate selectors with food names
+            function populateSelectors() {
+                var foodContainers = document.querySelectorAll('.food-container');
+                var foodSelector1 = document.getElementById('foodSelector1');
+                var foodSelector2 = document.getElementById('foodSelector2');
 
-
-
-
-    <div class="random-btn-container">
-        <button id="randomFoodBtn" class="random-btn">Random Food</button>
-
-        <div id="randomFoodBox" class="random-food-box display-hidden">
-            <div class="food-image">
-                <img id="randomFoodImage" src="" alt="" class="img-food">
-            </div>
-            <div class="food-details">
-                <h2 id="randomFoodName" class="food-name"> </h2>
-            </div>
-        </div>
-    </div>
-
-
-    <script>
-
-
- // Function to filter and display food items based on the selected category
- function filterFoodItems(category) {
-            var foodContainers = document.querySelectorAll('.food-container');
-
-            foodContainers.forEach(function(container) {
-                var categoryInput = container.querySelector('.category-input');
-                var foodCategory = categoryInput.value.toLowerCase(); // Assuming the category value is lowercase
-
-                if (category === 'all' || foodCategory.includes(category)) {
-                    container.style.display = 'flex'; // Display the container
-                } else {
-                    container.style.display = 'none'; // Hide the container
-                }
-            });
-        }
-
-        // Event listeners for tab buttons
-        var tabButtons = document.querySelectorAll('.tab-btn');
-        tabButtons.forEach(function(button) {
-            button.addEventListener('click', function() {
-                var selectedCategory = button.dataset.for.toLowerCase();
-                filterFoodItems(selectedCategory);
-            });
-        });
-    
-        // Function to get a random food item
-        function getRandomFood() {
-            var foodContainers = document.querySelectorAll('.food-container');
-            var randomIndex = Math.floor(Math.random() * foodContainers.length);
-            var randomFoodContainer = foodContainers[randomIndex];
-
-            var foodName = randomFoodContainer.querySelector('.food-name').textContent;
-            var foodImage = randomFoodContainer.querySelector('.img-food').src;
-           // var foodPrice = randomFoodContainer.querySelector('.price-rate').textContent;
-
-
-            // Display the random food in the randomFoodBox
-            document.getElementById('randomFoodName').textContent = foodName;
-            document.getElementById('randomFoodImage').src = foodImage;
-           // document.getElementById('randomFoodPrice').textContent = foodPrice;
-            document.getElementById('randomFoodBox').classList.remove('display-hidden');
-        }
-
-        // Event listener for the random food button
-        document.getElementById('randomFoodBtn').addEventListener('click', getRandomFood);
-
-        
-
-          // Function to get a random food item from selected options
-          function getRandomSelectedFood() {
-            var foodSelector1 = document.getElementById('foodSelector1');
-            var foodSelector2 = document.getElementById('foodSelector2');
-
-            var selectedFoodName1 = foodSelector1.value;
-            var selectedFoodName2 = foodSelector2.value;
-
-            if (selectedFoodName1 === '' || selectedFoodName2 === '') {
-                alert('Please select a food item in both selectors.');
-                return;
+                foodContainers.forEach(function(container) {
+                    var foodName = container.querySelector('.food-name').textContent;
+                    var option1 = document.createElement('option');
+                    var option2 = document.createElement('option');
+                    option1.value = foodName;
+                    option1.textContent = foodName;
+                    option2.value = foodName;
+                    option2.textContent = foodName;
+                    foodSelector1.appendChild(option1);
+                    foodSelector2.appendChild(option2);
+                });
             }
 
-            var selectedFoodNames = [selectedFoodName1, selectedFoodName2];
-            var randomSelectedFoodName = selectedFoodNames[Math.floor(Math.random() * selectedFoodNames.length)];
+            // Call the function to populate selectors on page load
+            populateSelectors();
 
-            // Get the corresponding details for the randomly selected food
-            var foodContainers = document.querySelectorAll('.food-container');
-            var randomSelectedFoodContainer = Array.from(foodContainers).find(container => container.querySelector('.food-name').textContent === randomSelectedFoodName);
+            // Function to filter and display food items based on the selected category
+            function filterFoodItems(category) {
+                var foodContainers = document.querySelectorAll('.food-container');
+                foodContainers.forEach(function(container) {
+                    var categoryInput = container.querySelector('.category-input');
+                    var foodCategory = categoryInput.value.toLowerCase();
+                    if (category === 'all' || foodCategory.includes(category)) {
+                        container.style.display = 'flex';
+                    } else {
+                        container.style.display = 'none';
+                    }
+                });
+            }
 
-            var foodImage = randomSelectedFoodContainer.querySelector('.img-food').src;
-            var foodPrice = randomSelectedFoodContainer.querySelector('.price-rate').textContent;
+            // Event listeners for tab buttons
+            var tabButtons = document.querySelectorAll('.tab-btn');
+            tabButtons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    var selectedCategory = button.dataset.for.toLowerCase();
+                    filterFoodItems(selectedCategory);
+                });
+            });
 
-            // Display the random selected food in the selected-food-box
-            document.getElementById('selectedFoodName').textContent = randomSelectedFoodName;
-            document.getElementById('selectedFoodImage').src = foodImage;
-            document.getElementById('selectedFoodPrice').textContent = foodPrice;
-            document.querySelector('.selected-food-box').classList.remove('display-hidden');
-        }
+            // Function to get a random food item
+            function getRandomFood() {
+                var foodContainers = document.querySelectorAll('.food-container');
+                var randomIndex = Math.floor(Math.random() * foodContainers.length);
+                var randomFoodContainer = foodContainers[randomIndex];
 
-        // Event listener for the Select One button
-        document.getElementById('selectOneBtn').addEventListener('click', getRandomSelectedFood);
+                var foodName = randomFoodContainer.querySelector('.food-name').textContent;
+                var foodImage = randomFoodContainer.querySelector('.img-food').src;
+                var foodPrice = randomFoodContainer.querySelector('.price-rate').textContent;
+                var foodCategory = randomFoodContainer.querySelector('.category-name').textContent;
+                var foodDescription = randomFoodContainer.querySelector('.para p').textContent;
 
+                // Display the random food in the randomFoodBox
+                document.getElementById('randomFoodName').textContent = foodName;
+                document.getElementById('randomFoodImage').src = foodImage;
+                document.getElementById('randomFoodPrice').textContent = foodPrice;
+                document.getElementById('randomFoodCategory').textContent = foodCategory;
+                document.getElementById('randomFoodDescription').textContent = foodDescription;
+                document.getElementById('randomFoodBox').classList.remove('display-hidden');
+            }
 
+            // Event listener for the random food button
+            document.getElementById('randomFoodBtn').addEventListener('click', getRandomFood);
 
-        
+            // Function to get a random food item from selected options
+            function getRandomSelectedFood() {
+                var foodSelector1 = document.getElementById('foodSelector1');
+                var foodSelector2 = document.getElementById('foodSelector2');
+
+                var selectedFoodName1 = foodSelector1.value;
+                var selectedFoodName2 = foodSelector2.value;
+
+                if (selectedFoodName1 === '' || selectedFoodName2 === '') {
+                    alert('Please select a food item in both selectors.');
+                    return;
+                }
+
+                var selectedFoodNames = [selectedFoodName1, selectedFoodName2];
+                var randomSelectedFoodName = selectedFoodNames[Math.floor(Math.random() * selectedFoodNames.length)];
+
+                // Get the corresponding details for the randomly selected food
+                var foodContainers = document.querySelectorAll('.food-container');
+                var randomSelectedFoodContainer = Array.from(foodContainers).find(container => container.querySelector('.food-name').textContent === randomSelectedFoodName);
+
+                var foodImage = randomSelectedFoodContainer.querySelector('.img-food').src;
+                var foodPrice = randomSelectedFoodContainer.querySelector('.price-rate').textContent;
+                var foodCategory = randomSelectedFoodContainer.querySelector('.category-name').textContent;
+                var foodDescription = randomSelectedFoodContainer.querySelector('.para p').textContent;
+
+                // Display the random selected food in the selected-food-box
+                document.getElementById('selectedFoodName').textContent = randomSelectedFoodName;
+                document.getElementById('selectedFoodImage').src = foodImage;
+                document.getElementById('selectedFoodPrice').textContent = foodPrice;
+                document.getElementById('selectedFoodCategory').textContent = foodCategory;
+                document.getElementById('selectedFoodDescription').textContent = foodDescription;
+                document.querySelector('.selected-food-box').classList.remove('display-hidden');
+            }
+
+            // Event listener for the Select One button
+            document.getElementById('selectOneBtn').addEventListener('click', getRandomSelectedFood);
+        });
     </script>
+
+
+
+<script>
+  const foodImages = {
+      "Pizza with Sauce": "imgs/img (1).jpg",
+      "Hamburger Cheese": "imgs/img (2).jpg",
+      "Mix Veg": "imgs/img (3).jpg",
+      // Add more food names and image paths as needed
+  };
+
+  let currentIndex = 0;
+  const foodNames = Object.keys(foodImages);
+  const foodImageElement = document.getElementById('foodImage');
+
+  function changeFoodImage() {
+      const currentFoodName = foodNames[currentIndex];
+      const currentImagePath = foodImages[currentFoodName];
+      foodImageElement.src = currentImagePath;
+
+      currentIndex = (currentIndex + 1) % foodNames.length; // Increment index and loop back to the beginning
+  }
+
+  // Initial call to changeFoodImage
+  changeFoodImage();
+
+  // Set interval to change the food image every 3 seconds
+  setInterval(changeFoodImage, 3000);
+</script>
+
 </body>
 </html>
+
+    
+        
+                
+                
+              
